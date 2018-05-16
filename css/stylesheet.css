@@ -1,0 +1,989 @@
+/*defacult css*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+@media screen and (max-width:768px) {
+
+  body{
+    height: 100%;
+    width: 100%;
+  }
+  .cf{
+    content: " ";
+    display: table;
+    clear: both;
+  }
+  a,img {
+    text-decoration: none;
+  }
+  ul{
+    list-style: none;
+  }
+  body{
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    font-size:16px;
+  }
+
+  /* header */
+
+  header{
+    width: 100%;
+    height: 150px;
+    background-color: #002147;
+    position: static;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo{
+    float: left;
+    margin-left: 50px;
+    display: none;
+  }
+  .mlogo{
+    float: left;
+    margin-left: 20px;
+  }
+  .button_hamburger {
+     margin: 18px 0px;
+     width: 30px;
+     height: 30px;
+     float: right;
+     background-image: url(../images/menu.gif);
+     color: #fff;
+     border: none;
+     font-size: 30px;
+     transition: height 0.3s linear 0s;
+  }
+  .input{
+   display: none;
+  }
+  .admissions{
+    width: 600px;
+    height: 30px;
+    flex-direction: row;
+    display: none;
+  }
+  .about {
+    display: flex;
+    direction: row;
+    justify-content: space-around;
+    align-items: center;
+    display: none;
+  }
+  .about li{
+    margin-right: 40px;
+    display: none;
+    font-weight: bold;
+  }
+  a {
+      color:white;
+  }
+  .colleges{
+    height: 30px;
+    width: 300px;
+    background-color: #001833;
+    display: flex;
+    direction: row;
+    justify-content: space-around;
+    align-items: center;
+    display: none
+  }
+  .button{
+    background-color:  #002147;
+    margin: 20px ;
+  }
+  .search{
+    display: flex;
+    direction: row;
+    padding-right: 75px
+  }
+  .sec{
+    display: flex;
+    direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .staff{
+    height: 5px;
+    width: 500px;
+    display:flex;
+    direction: row;
+    margin-top: 85px;
+    display: none;
+  }
+  .staff li{
+    margin-right: 29px
+  }
+
+  /* banner */
+
+  .inner_main{
+    height: 450px;
+    width: 100%;
+    background-image: url(../images/banner.png);
+    background-size: 767px;
+    background-repeat: no-repeat;
+   }
+   .banner{
+     padding: 290px 0 0 0;
+     color: black;
+     font-size: 16px;
+     margin-left:20px;
+   }
+
+   /* NEWS */
+
+   .news_events{
+     height: 1950px;
+     width: 100%;
+     background-color: #f3f1ec;
+    }
+    .news_main {
+      padding-top: 25px;
+
+    }
+    .event{
+      margin-left: 20px;
+    }
+    .img{
+      height: 400px;
+      width: 100%;
+    }
+    .article p{
+     font-size: 30px;
+     width: 100%;
+     height: 100px;
+     padding-left: 20px;
+     padding-top: 10px;
+     box-sizing: border-box;
+    }
+    .article p br{
+      display: none;
+    }
+
+    span{
+      height: 60px;
+      width: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #002147;
+      color: white;
+    }
+    .eve {
+      display: flex;
+      margin-top: 20px;
+    }
+    .eve p{
+      font-size: 30px;
+      padding-left: 30px
+    }
+
+    /* DISCOVER */
+    .discover{
+      height: 1020px;
+      width: 100%;
+      background-color: #e0ded9;
+     }
+     .discover_quotes {
+       background-color: #ffffff;
+       height: 176px;
+       width: 100%;
+       display: flex;
+       align-items: center;
+       padding-left: 50px;
+     }
+     .discover article{
+       display: flex;
+       margin-top: 10px;
+     }
+     .discover article h5{
+       font-size: 25px;
+     }
+     .discover article p{
+       font-size: 20px;
+     }
+     .disc{
+       width: 100%;
+       height:400px;
+       padding:30px 0 0 30px;
+       box-sizing:border-box;
+     }
+     .discover_image{
+       width: 190px;
+     }
+
+     /* study of oxford */
+
+
+     .study{
+       height: 680px;
+       width: 100%;
+       background-color: #f3f1ec;
+     }
+     .study article{
+       width: 100%;
+       height: 300px;
+       float: left;
+       margin-right: 5px;
+     }
+     .study_at{
+       display: flex;
+       display: row;
+     }
+     .studyat{
+       width: 100%;
+       height:350px;
+       padding: 20px 0px 0 20px ;
+       box-sizing: border-box;
+     }
+     .image1{
+       background-image: url(../images/study1.jpg);
+       background-size: 300px;
+       background-repeat: no-repeat;
+     }
+     .image1 div{
+       height: 30px;
+       width: 270px;
+       background-color: rgba(255,225,225, 0.8);
+       margin-top: 247px;
+     }
+     .image2{
+       background-image: url(../images/study2.jpg);
+       background-size: 300px;
+       background-repeat: no-repeat;
+     }
+     .image2 div{
+       height: 30px;
+       width: 270px;
+       background-color: rgba(255,225,225, 0.8);
+       margin-top: 247px;
+     }
+     .image3{
+       background-image: url(../images/study3.jpg);
+       background-size: 300px;
+       background-repeat: no-repeat;
+     }
+     .image3 div{
+       height: 30px;
+       width: 270px;
+       background-color: rgba(255,225,225, 0.8);
+       margin-top: 247px;
+     }
+     .image4{
+       background-image: url(../images/study4.jpg);
+       background-size: 300px;
+       background-repeat: no-repeat;
+     }
+     .image4 div{
+       height: 30px;
+       width: 270px;
+       background-color: rgba(255,225,225, 0.8);
+       margin-top: 247px;
+     }
+     .inner_text{
+       padding: 10px 0 0px 30px;
+     }
+     /* footer */
+
+     .main_footer{
+       width: 100%;
+       height: 800px;
+       background-color: #002147;
+       padding: 20px 0px 0px 0px;
+     }
+     .contact{
+       color: white;
+       padding-left: 50px;
+     }
+     .icons ul li{
+       display: inline;
+     }
+     .icons ul{
+         margin-top:10px;
+
+     }
+     h2{
+       color: white;
+     }
+     .info{
+       height: 550px;
+       width: 100%;
+
+     }
+     .info article{
+       padding: 20px 0 0 20px;
+
+     }
+     .info article ul li {
+       margin-bottom: 10px;
+     }
+     .copyright ul li{
+       display:inline;
+       margin-right: 10px;
+     }
+     .copyright{
+      margin-top: 120px;
+      font-size: 12px;
+      padding-left: 20px;
+     }
+}
+
+@media screen and (min-width:769px) and (max-width:1199px) {
+  body{
+    height: 100%;
+    width: 100%;
+  }
+  .cf{
+    content: ".";
+    display: table;
+    clear: both;
+  }
+  a,img {
+    text-decoration: none;
+  }
+  ul{
+    list-style: none;
+  }
+  body{
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    font-size:16px;
+  }
+
+
+  /* header */
+
+  header{
+    width: 100%;
+    height: 150px;
+    background-color: #002147;
+    position: static;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo{
+    float: left;
+    margin-left: 50px;
+  }
+  .mlogo{
+    display: none;
+  }
+  .button_hamburger {
+     margin: 18px 0px;
+     width: 30px;
+     height: 30px;
+     float: right;
+     background-image: url(../images/menu.gif);
+     color: #fff;
+     border: none;
+     font-size: 30px;
+     transition: height 0.3s linear 0s;
+  }
+  .input{
+   display: none;
+  }
+  .admissions{
+    width: 600px;
+    height: 30px;
+    flex-direction: row;
+  }
+  .about {
+    display: flex;
+    direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .about li{
+    margin-right: 40px;
+  }
+  a {
+      color:white;
+  }
+  .colleges{
+    height: 30px;
+    width: 300px;
+    background-color: #001833;
+    display: flex;
+    direction: row;
+    justify-content: space-around;
+    align-items: center;
+    display: none
+  }
+  .button{
+    background-color:  #002147;
+    margin: 20px ;
+  }
+  .search{
+    display: flex;
+    direction: row;
+  }
+  .sec{
+    display: flex;
+    direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .staff{
+    height: 5px;
+    width: 500px;
+    display:flex;
+    direction: row;
+    margin-top: 85px;
+    display: none;
+  }
+  .staff li{
+    margin-right: 29px
+  }
+
+  /* banner */
+
+  .inner_main{
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/banner.png);
+   }
+   .banner{
+     padding: 350px 0 0 30px;
+     color: white;
+     font-size: 12px
+   }
+
+   /* NEWS */
+
+   .news_events{
+     height: 380px;
+     width: 100%;
+     background-color: #f3f1ec;
+     display:flex;
+    }
+    .img{
+      width: 220px;
+    }
+    .news_main{
+      height:316px;
+      padding-left: 50px;
+      padding-top: 20px;
+      width: 66%
+    }
+    .article{
+      float: left;
+      margin-right: 10px;
+      width: 31%;
+    }
+    .article p {
+      background: #e0ded9;
+      height: 75px;
+      width: 220px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .event{
+      width: 25%;
+      height:250px;
+      float: right;
+      padding-top: 20px;
+    }
+    span{
+      height: 60px;
+      width: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #002147;
+      color: white;
+      margin-top: 5px;
+    }
+    .event p{
+      background: #e0ded9;
+      width: 275px;
+      margin-top: 10px;
+    }
+
+    /* DISCOVER */
+    .discover{
+      height: 380px;
+      width: 100%;
+      background-color: #e0ded9;
+     }
+     .discover article{
+       width: 19%;
+       height: 300px;
+       float: left;
+       margin-right: 03px
+     }
+     .discover_quotes {
+       background-color: #ffffff;
+       height: 75px;
+       width: 190px;
+       display: flex;
+       align-items: center;
+       box-sizing: border-box;
+     }
+     .disc{
+       width: 100%;
+       height:303px;
+       padding:20px 0 0 30px;
+       box-sizing: border-box;
+     }
+     .discover_image{
+       width: 190px;
+     }
+
+     /* study of oxford */
+
+
+     .study{
+       height: 360px;
+       width: 100%;
+       background-color: #f3f1ec;
+     }
+     .study article{
+       margin-right: 5px;
+     }
+     .study_content{
+       padding: 20px 0px 0px 30px ;
+     }
+     .stdy{
+       display: flex;
+     }
+     .study_at{
+       display: flex;
+     }
+     .studyat{
+       height:330px;
+       width: 100%;
+     }
+     .image1{
+       background-image: url(../images/study1.jpg);
+       background-size: cover;
+       width: 255px;
+     }
+     .image1 div{
+       height: 30px;
+       width: 190px;
+       background-color: rgba(255,225,225, 0.8);
+       margin-top: 260px;
+     }
+     .image2{
+       background-image: url(../images/study2.jpg);
+       background-size: cover;
+        width: 255px;
+     }
+     .image2 div{
+       height: 30px;
+       width: 180px;
+       background-color: rgba(255,225,225, 0.8);
+       margin-top: 260px;
+     }
+     .image3{
+       background-image: url(../images/study3.jpg);
+       background-size: cover;
+        width: 255px;
+     }
+     .image3 div{
+       height: 30px;
+       width: 180px;
+       background-color: rgba(255,225,225, 0.8);
+       margin-top: 260px;
+     }
+     .image4{
+       background-image: url(../images/study4.jpg);
+       background-size: cover;
+        width: 255px;
+     }
+     .image4 div{
+       height: 30px;
+       width: 190px;
+       background-color: rgba(255,225,225, 0.8);
+       margin-top: 260px;
+     }
+     .inner_text{
+       padding: 10px 0 0px 10px;
+     }
+     /* footer */
+
+     .main_footer{
+       width: 100%;
+       height: 400px;
+       background-color: #002147;
+       padding: 50px 0px 0px 0px;
+     }
+     .contact{
+       display: flex;
+       display: row;
+       color: white;
+       padding-left: 50px;
+     }
+     .icons{
+      padding-left: 30px;
+     }
+     .icons ul li{
+       display: inline;
+     }
+     .icons ul{
+         display: inline;
+     }
+     h2{
+       color: white;
+     }
+     .info{
+       height: 330px;
+       width: 100%;
+
+     }
+     .info article{
+       float: left;
+       padding: 50px 0 0 30px;
+
+     }
+     .info article ul li {
+       margin-bottom: 15px;
+     }
+     .copyright ul li{
+       display: inline;
+       padding-left: 30px
+     }
+}
+
+@media screen and (min-width:1200px) {
+ html{
+  width: 100%;
+ }
+ body{
+   height: 100%;
+   width: 100%;
+ }
+ .cf{
+   content: ".";
+   display: table;
+   clear: both;
+ }
+ a,img {
+   text-decoration: none;
+ }
+ a:hover {
+     color: #2f2c77;
+ }
+ ul{
+   list-style: none;
+ }
+ body{
+   font-family: "Times New Roman", Times, serif;
+   color: black;
+   font-size:16px;
+ }
+
+ /* header */
+
+ .header{
+   width: 100%;
+   height: 150px;
+   background-color: #002147;
+   position: fixed;
+   top: 0px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+ }
+ /* #js-header{
+   width: 100%;
+   height: 50px;
+   background-color: #002147;
+ }
+ #js-header.logo{
+   display: none;
+ } */
+ .logo{
+   float: left;
+   margin-left: 50px;
+ }
+ .mlogo{
+   display: none;
+ }
+ .button_hamburger {
+    margin: 15px 16px;
+    width: 30px;
+    height: 30px;
+    float: right;
+    background-color: #202020;
+    color: #fff;
+    border: none;
+    font-size: 30px;
+    transition: height 0.3s linear 0s;
+    display: none;
+  }
+ .admissions{
+   width: 600px;
+   height: 30px;
+   flex-direction: row;
+
+ }
+ .about{
+   display: flex;
+   direction: row;
+   justify-content: space-around;
+   align-items: center;
+ }
+ .about li{
+   margin-right: 40px;
+   font-weight: bold;
+ }
+  a {
+     color:white;
+ }
+ .colleges{
+   height: 30px;
+   width: 350px;
+   background-color: #001833;
+   display: flex;
+   direction: row;
+   justify-content: space-around;
+   align-items: center;
+   padding-left: 30px;
+ }
+ .colleges li{
+   margin-right: 20px;
+ }
+ .button{
+   background-color:  #002147;
+  }
+ .search{
+   display: flex;
+   direction: row;
+ }
+ .sec{
+   display: flex;
+   direction: row;
+   justify-content: space-around;
+   align-items: center;
+ }
+ .staff{
+   height: 5px;
+   width: 500px;
+   display:flex;
+   direction: row;
+   margin-top: 85px;
+ }
+ .staff li{
+   margin-right: 29px
+ }
+
+ /* banner */
+
+ .inner_main{
+   height: 500px;
+   width: 100%;
+   background-image: url(../images/banner.png);
+   margin-top: 150px;
+   background-repeat:no-repeat;
+   background-size: cover;
+  }
+  .banner{
+   padding: 350px 0 0 50px;
+   color: white;
+   font-size: 12px
+ }
+
+ /* NEWS */
+
+ .news_events{
+       height: 350px;
+       width: 100%;
+       background-color: #f3f1ec;
+       display: flex;
+ }
+ .news_main{
+   width: 72%;
+   height: 320px;
+   float: left;
+   padding-left: 50px;
+   padding-top: 20px;
+ }
+ .article {
+   float: left;
+   margin-right: 10px;
+   width: 32%
+ }
+ .article p {
+   background: #e0ded9;
+   height: 75px;
+   width: 310px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .event{
+   width: 25%;
+   height:320px;
+   float: right;
+   padding-top: 20px;
+ }
+ span{
+   height: 60px;
+   width: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #002147;
+   color: white;
+   margin-top: 05px;
+
+ }
+ .event p{
+   background: #e0ded9;
+   width: 275px;
+   padding-top: 10px;
+   margin-top: 5px;
+ }
+
+ /* DISCOVER */
+
+ .discover{
+   height: 350px;
+   width: 100%;
+   background-color: #e0ded9;
+ }
+
+ .discover article{
+   width: 18.5%;
+   height: 300px;
+   float: left;
+   margin-right: 18px;
+ }
+ .discover_quotes {
+   background-color: #ffffff;
+   height: 75px;
+   width: 238px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .disc{
+   width: 100%;
+   height:400px;
+   padding: 20px 50px 0 50px  ;
+   box-sizing: border-box;
+ }
+
+
+
+ /* study of oxford */
+
+
+ .study{
+   height: 380px;
+   width: 100%;
+   background-color: #f3f1ec;
+ }
+ .study article{
+   width: 23.4%;
+   height: 300px;
+   float: left;
+   margin-right: 5px;
+ }
+ .studyat{
+   height:330px;
+   width: 100%;
+   padding: 20px 0px 0 50px ;
+   box-sizing: border-box;
+ }
+ .image1{
+   background-image: url(../images/study1.jpg);
+   background-size: cover;
+ }
+ .image1 div{
+   height: 30px;
+   width: 270px;
+   background-color: rgba(225,225,225, 0.8);
+   margin-top: 260px;
+ }
+ .image2{
+   background-image: url(../images/study2.jpg);
+   background-size: cover;
+ }
+ .image2 div{
+   height: 30px;
+   width: 270px;
+   background-color: rgba(225,225,225, 0.8);
+   margin-top: 260px;
+ }
+ .image3{
+   background-image: url(../images/study3.jpg);
+   background-size: cover;
+ }
+ .image3 div{
+   height: 30px;
+   width: 270px;
+   background-color: rgba(225,225,225, 0.8);
+   margin-top: 260px;
+ }
+ .image4{
+   background-image: url(../images/study4.jpg);
+   background-size: cover;
+ }
+ .image4 div{
+   height: 30px;
+   width: 270px;
+   background-color: rgba(225,225,225, 0.8);
+   margin-top: 260px;
+ }
+ .inner_text{
+   padding: 10px 0 0px 30px;
+ }
+
+
+ /* footer */
+
+ .main_footer{
+   width: 100%;
+   height: 450px;
+   background-color: #002147;
+   padding: 50px 0px 0px 0px;
+ }
+ .contact{
+   display: flex;
+   display: row;
+   color: white;
+   padding-left: 50px;
+ }
+ .icons{
+   padding-left:30px;
+ }
+ .icons ul li{
+   display: inline;
+ }
+ h2{
+   color: white;
+ }
+ .info{
+   height: 380px;
+   width: 100%;
+
+ }
+ .info article{
+   float: left;
+   margin-right: 100px;
+   padding: 50px 0 0 50px;
+
+ }
+ .info article ul li {
+   margin-bottom: 15px;
+ }
+ .copyright ul li{
+   display: inline;
+   margin-right: 5px;
+   padding-left: 50px
+ }
+}
