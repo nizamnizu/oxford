@@ -686,7 +686,7 @@
 
  /* header */
 
- .header{
+  header{
    width: 100%;
    height: 150px;
    background-color: #002147;
@@ -696,6 +696,26 @@
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
+ }
+ header.smaller {
+	height: 75px;
+ }
+ header.smaller.logo {
+	display: none;
+ }
+ header.smaller.about{
+   width: 600px;
+   height: 30px;
+   flex-direction: row;
+ }
+ header.smaller.colleges{
+   display: none;
+ }
+ header.smaller.staff{
+   height: 5px;
+   width: 500px;
+   display:flex;
+   direction: row;
  }
  .logo{
    float: left;
