@@ -21,6 +21,9 @@
   ul{
     list-style: none;
   }
+  a:hover {
+      color: #2f2c77;
+  }
   body{
     font-family: "Times New Roman", Times, serif;
     color: black;
@@ -350,6 +353,9 @@
   }
   ul{
     list-style: none;
+  }
+  a:hover {
+      color: #2f2c77;
   }
   body{
     font-family: "Times New Roman", Times, serif;
