@@ -440,7 +440,7 @@
   }
   .search{
     display: flex;
-    direction: row;
+    padding-right: 50px;
   }
   .sec{
     display: flex;
@@ -476,7 +476,7 @@
    /* NEWS */
 
    .news_events{
-     height: 380px;
+     height: 400px;
      width: 100%;
      background-color: #f3f1ec;
      display:flex;
@@ -493,7 +493,8 @@
     .article{
       float: left;
       margin-right: 10px;
-      width: 31%;
+      width: 31.8%;
+      padding-top: 20px
     }
     .article p {
       background: #e0ded9;
@@ -517,7 +518,8 @@
       align-items: center;
       background: #002147;
       color: white;
-      margin-top: 5px;
+      margin-top: 20px;
+
     }
     .event p{
       background: #e0ded9;
@@ -535,7 +537,8 @@
        width: 19%;
        height: 300px;
        float: left;
-       margin-right: 03px
+       margin-right: 03px;
+       padding-top: 20px;
      }
      .discover_quotes {
        background-color: #ffffff;
@@ -547,8 +550,8 @@
      }
      .disc{
        width: 100%;
-       height:303px;
-       padding:20px 0 0 30px;
+       height:325px;
+       padding:30px 0 0 30px;
        box-sizing: border-box;
      }
      .discover_image{
@@ -559,7 +562,7 @@
 
 
      .study{
-       height: 360px;
+       height: 300px;
        width: 100%;
        background-color: #f3f1ec;
      }
@@ -567,13 +570,16 @@
        margin-right: 5px;
      }
      .study_content{
-       padding: 20px 0px 0px 30px ;
+       padding: 30px 0px 0px 30px ;
      }
      .stdy{
        display: flex;
+       height: 200px;
+       width: 480px
      }
      .study_at{
        display: flex;
+       padding-top: 20px;
      }
      .studyat{
        height:330px;
@@ -586,9 +592,9 @@
      }
      .image1 div{
        height: 30px;
-       width: 190px;
+       width: 205px;
        background-color: rgba(255,225,225, 0.8);
-       margin-top: 260px;
+       margin-top: 161px;
      }
      .image2{
        background-image: url(../images/study2.jpg);
@@ -597,9 +603,9 @@
      }
      .image2 div{
        height: 30px;
-       width: 180px;
+       width: 205px;
        background-color: rgba(255,225,225, 0.8);
-       margin-top: 260px;
+       margin-top: 161px;
      }
      .image3{
        background-image: url(../images/study3.jpg);
@@ -608,9 +614,9 @@
      }
      .image3 div{
        height: 30px;
-       width: 180px;
+       width: 205px;
        background-color: rgba(255,225,225, 0.8);
-       margin-top: 260px;
+       margin-top: 161px;
      }
      .image4{
        background-image: url(../images/study4.jpg);
@@ -619,9 +625,9 @@
      }
      .image4 div{
        height: 30px;
-       width: 190px;
+       width: 205px;
        background-color: rgba(255,225,225, 0.8);
-       margin-top: 260px;
+       margin-top: 161px;
      }
      .inner_text{
        padding: 10px 0 0px 10px;
@@ -712,29 +718,9 @@
    justify-content: space-between;
    align-items: center;
  }
- header.smaller {
-	height: 75px;
- }
- header.smaller.logo {
-	display: none;
- }
- header.smaller.about{
-   width: 600px;
-   height: 30px;
-   flex-direction: row;
- }
- header.smaller.colleges{
-   display: none;
- }
- header.smaller.staff{
-   height: 5px;
-   width: 500px;
-   display:flex;
-   direction: row;
- }
  .logo{
    float: left;
-   margin-left: 50px;
+   margin-left: 100px;
  }
  .mlogo{
    display: none;
@@ -752,10 +738,8 @@
     display: none;
   }
  .admissions{
-   width: 600px;
-   height: 30px;
    flex-direction: row;
-
+   padding-left: 100px;
  }
  .about{
    display: flex;
@@ -826,7 +810,7 @@
  /* NEWS */
 
  .news_events{
-       height: 350px;
+       height: 390px;
        width: 100%;
        background-color: #f3f1ec;
        display: flex;
@@ -841,7 +825,8 @@
  .article {
    float: left;
    margin-right: 10px;
-   width: 32%
+   width: 32%;
+   padding-top: 20px;
  }
  .article p {
    background: #e0ded9;
@@ -865,7 +850,7 @@
    align-items: center;
    background: #002147;
    color: white;
-   margin-top: 05px;
+   margin-top: 20px;
 
  }
  .event p{
@@ -878,16 +863,17 @@
  /* DISCOVER */
 
  .discover{
-   height: 350px;
+   height: 360px;
    width: 100%;
    background-color: #e0ded9;
  }
 
  .discover article{
    width: 18.5%;
-   height: 300px;
+   height: 250px;
    float: left;
    margin-right: 18px;
+   padding-top: 20px;
  }
  .discover_quotes {
    background-color: #ffffff;
@@ -910,7 +896,7 @@
 
 
  .study{
-   height: 380px;
+   height: 400px;
    width: 100%;
    background-color: #f3f1ec;
  }
@@ -919,6 +905,9 @@
    height: 300px;
    float: left;
    margin-right: 5px;
+ }
+ .study_at {
+   padding-top: 20px
  }
  .studyat{
    height:330px;
