@@ -27,7 +27,7 @@
     list-style: none;
   }
   body{
-    font-family: "Times New Roman", Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: black;
     font-size:16px;
   }
@@ -367,7 +367,7 @@
     list-style: none;
   }
   body{
-    font-family: "Times New Roman", Times, serif;
+    font-family:Arial, Helvetica, sans-serif;
     color: black;
     font-size:16px;
   }
@@ -440,7 +440,7 @@
   }
   .search{
     display: flex;
-    padding-right: 50px;
+    direction: row;
   }
   .sec{
     display: flex;
@@ -476,7 +476,7 @@
    /* NEWS */
 
    .news_events{
-     height: 400px;
+     height: 380px;
      width: 100%;
      background-color: #f3f1ec;
      display:flex;
@@ -494,7 +494,6 @@
       float: left;
       margin-right: 10px;
       width: 31.8%;
-      padding-top: 20px
     }
     .article p {
       background: #e0ded9;
@@ -518,8 +517,7 @@
       align-items: center;
       background: #002147;
       color: white;
-      margin-top: 20px;
-
+      margin-top: 5px;
     }
     .event p{
       background: #e0ded9;
@@ -537,8 +535,7 @@
        width: 19%;
        height: 300px;
        float: left;
-       margin-right: 03px;
-       padding-top: 20px;
+       margin-right: 03px
      }
      .discover_quotes {
        background-color: #ffffff;
@@ -550,8 +547,8 @@
      }
      .disc{
        width: 100%;
-       height:325px;
-       padding:30px 0 0 30px;
+       height:303px;
+       padding:20px 0 0 30px;
        box-sizing: border-box;
      }
      .discover_image{
@@ -562,7 +559,7 @@
 
 
      .study{
-       height: 300px;
+       height: 30px;
        width: 100%;
        background-color: #f3f1ec;
      }
@@ -570,7 +567,7 @@
        margin-right: 5px;
      }
      .study_content{
-       padding: 30px 0px 0px 30px ;
+       padding: 20px 0px 0px 30px ;
      }
      .stdy{
        display: flex;
@@ -579,7 +576,6 @@
      }
      .study_at{
        display: flex;
-       padding-top: 20px;
      }
      .studyat{
        height:330px;
@@ -678,12 +674,10 @@
 }
 
 @media screen and (min-width:1200px) {
- html{
-  width: 100%;
- }
+
  body{
    height: 100%;
-   width: 100%;
+   width: 1366px;
  }
  .cf{
    content: ".";
@@ -693,14 +687,12 @@
  a,img {
    text-decoration: none;
  }
- a:hover {
-     color: #2f2c77;
- }
+
  ul{
    list-style: none;
  }
  body{
-   font-family: "Times New Roman", Times, serif;
+   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
    color: black;
    font-size:16px;
  }
@@ -708,19 +700,20 @@
  /* header */
 
   header{
-   width: 100%;
+   width: 1366px;
    height: 150px;
    background-color: #002147;
-   position: fixed;
    top: 0px;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
+   margin: auto;
  }
  .logo{
    float: left;
-   margin-left: 100px;
+   margin-left: 50px;
+   padding-top: 10px;
  }
  .mlogo{
    display: none;
@@ -739,7 +732,7 @@
   }
  .admissions{
    flex-direction: row;
-   padding-left: 100px;
+   padding-left: 35px;
  }
  .about{
    display: flex;
@@ -749,55 +742,91 @@
  }
  .about li{
    margin-right: 40px;
-   font-weight: bold;
+   font-size: 21px;
  }
-  a {
+  .about li a{
      color:white;
  }
+ .about li a:hover{
+   background-color: #3277ae;
+ }
  .colleges{
-   height: 30px;
+   height: 50px;
    width: 350px;
    background-color: #001833;
+   font-size: 14px;
    display: flex;
    direction: row;
    justify-content: space-around;
    align-items: center;
-   padding-left: 30px;
+   padding-left: 10px;
+   color: rgba(255,255,255,0.1);
  }
- .colleges li{
-   margin-right: 20px;
+ .colleges li a{
+   padding-right: 20px;
+   color: rgba(255,255,255,0.7);
  }
  .button{
    background-color:  #002147;
   }
- .search{
-   display: flex;
-   direction: row;
+  .input {
+     height: 50px;
+     font-size: 12px;
+     float: left;
+     border: 0px solid;
+     width: 100px;
+     background-color: rgba(255,255,255,0.1);
+     border-color: transparent;
+  }
+  ::placeholder {
+    color: white;
+    padding: 5px;
+  }
+  .search li button{
+     float: left;
+     width: 50px;
+     height:50px;
+     background: rgba(255,255,255,0.1);
+     border-color: transparent;
+     color: white;
+     font-size: 17px;
+     cursor: pointer;
+ }
+
+ .search::after {
+     content: "";
+     clear: both;
+     display: table;
  }
  .sec{
    display: flex;
    direction: row;
-   justify-content: space-around;
    align-items: center;
  }
  .staff{
    height: 5px;
-   width: 500px;
+   width: 540px;
    display:flex;
    direction: row;
-   margin-top: 85px;
+   margin-top: 20px;
+   font-size: 12px;
  }
  .staff li{
-   margin-right: 29px
+   padding-left: 15px;
+   margin-left: 30px;
  }
+ .staff li a{
+   color: rgba(255,255,255,0.7);
+ }
+
 
  /* banner */
 
  .inner_main{
    height: 500px;
-   width: 100%;
+   width: 1366px;
+   margin: auto;
    background-image: url(../images/banner.png);
-   margin-top: 150px;
    background-repeat:no-repeat;
    background-size: cover;
   }
@@ -810,8 +839,8 @@
  /* NEWS */
 
  .news_events{
-       height: 390px;
-       width: 100%;
+       height: 440px;
+       width: 1366px;
        background-color: #f3f1ec;
        display: flex;
  }
@@ -856,16 +885,18 @@
  .event p{
    background: #e0ded9;
    width: 275px;
-   padding-top: 10px;
+   padding-top: 5px;
    margin-top: 5px;
+   padding-left: 10px;
  }
 
  /* DISCOVER */
 
  .discover{
    height: 360px;
-   width: 100%;
+   width: 1366px;
    background-color: #e0ded9;
+   margin: auto;
  }
 
  .discover article{
@@ -897,8 +928,9 @@
 
  .study{
    height: 400px;
-   width: 100%;
+   width: 1366px;
    background-color: #f3f1ec;
+   margin: auto;
  }
  .study article{
    width: 23.4%;
@@ -963,10 +995,11 @@
  /* footer */
 
  .main_footer{
-   width: 100%;
-   height: 450px;
+   width: 1366px;
+   height: 500px;
    background-color: #002147;
    padding: 50px 0px 0px 0px;
+   margin: auto;
  }
  .contact{
    display: flex;
@@ -984,7 +1017,7 @@
    color: white;
  }
  .info{
-   height: 380px;
+   height: 425px;
    width: 100%;
 
  }
@@ -995,11 +1028,17 @@
 
  }
  .info article ul li {
-   margin-bottom: 15px;
+   padding-top: 20px;
+ }
+ .info article ul li a{
+   color: white;
  }
  .copyright ul li{
    display: inline;
    margin-right: 5px;
    padding-left: 50px
+ }
+ .copyright ul li a{
+   color: white;
  }
 }
