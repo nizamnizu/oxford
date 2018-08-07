@@ -55,14 +55,13 @@
     margin-left: 20px;
   }
   .button_hamburger {
-     margin: 18px 0px;
      width: 30px;
      height: 30px;
      float: right;
      background-image: url(../images/menu.gif);
      color: #fff;
      border: none;
-     font-size: 30px;
+     font-size: 0px;
      transition: height 0.3s linear 0s;
   }
   .input{
@@ -108,6 +107,16 @@
     direction: row;
     padding-right: 75px
   }
+  .search li:first-child button{
+     float: left;
+     width: 30px;
+     height:30px;
+     background: rgba(255,255,255,0.1);
+     border-color: transparent;
+     color: white;
+     font-size: 17px;
+     cursor: pointer;
+ }
   .sec{
     display: flex;
     direction: row;
@@ -394,14 +403,14 @@
     display: none;
   }
   .button_hamburger {
-     margin: 18px 0px;
      width: 30px;
      height: 30px;
      float: right;
      background-image: url(../images/menu.gif);
      color: #fff;
      border: none;
-     font-size: 30px;
+     font-size: 0px;
+     background-repeat: no-repeat;
      transition: height 0.3s linear 0s;
   }
   .input{
@@ -442,6 +451,16 @@
     display: flex;
     direction: row;
   }
+  .search li:first-child button{
+     float: left;
+     width: 30px;
+     height:30px;
+     background: rgba(255,255,255,0.1);
+     border-color: transparent;
+     color: white;
+     font-size: 17px;
+     cursor: pointer;
+ }
   .sec{
     display: flex;
     direction: row;
