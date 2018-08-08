@@ -24,8 +24,8 @@
     text-decoration: none;
   }
   ul{
-    list-style: none;
   }
+    list-style: none;
   body{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -696,7 +696,8 @@
 
  body{
    height: 100%;
-   width: 1366px;
+   width: 1344px;
+   margin: auto;
  }
  .cf{
    content: ".";
@@ -719,7 +720,7 @@
  /* header */
 
   header{
-   width: 1366px;
+   width: 1344px;
    height: 150px;
    background-color: #002147;
    top: 0px;
@@ -843,7 +844,7 @@
 
  .inner_main{
    height: 500px;
-   width: 1366px;
+   width: 1344px;
    margin: auto;
    background-image: url(../images/banner.png);
    background-repeat:no-repeat;
@@ -859,7 +860,8 @@
 
  .news_events{
        height: 440px;
-       width: 1366px;
+       width: 1344px;
+       margin: auto;
        background-color: #f3f1ec;
        display: flex;
  }
@@ -913,7 +915,7 @@
 
  .discover{
    height: 360px;
-   width: 1366px;
+   width: 1344px;
    background-color: #e0ded9;
    margin: auto;
  }
@@ -947,7 +949,7 @@
 
  .study{
    height: 400px;
-   width: 1366px;
+   width: 1344px;
    background-color: #f3f1ec;
    margin: auto;
  }
@@ -1014,7 +1016,7 @@
  /* footer */
 
  .main_footer{
-   width: 1366px;
+   width: 1344px;
    height: 500px;
    background-color: #002147;
    padding: 50px 0px 0px 0px;
