@@ -24,10 +24,10 @@
     text-decoration: none;
   }
   ul{
-  }
     list-style: none;
+  }
   body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
     color: black;
     font-size:16px;
   }
@@ -115,7 +115,7 @@
      color: white;
      font-size: 17px;
      cursor: pointer;
- }
+   }
   .sec{
     display: flex;
     direction: row;
@@ -131,7 +131,7 @@
     display: none;
   }
   .staff li{
-    margin-right: 29px
+    margin-right: 29px;
   }
   .dropdown-content{
     width: 100%;
@@ -225,7 +225,7 @@
 
     /* DISCOVER */
     .discover{
-      height: 1020px;
+      height: 1120px;
       width: 100%;
       background-color: #e0ded9;
      }
@@ -239,7 +239,7 @@
      }
      .discover article{
        display: flex;
-       margin-top: 10px;
+       margin-top: 30px;
      }
      .discover article h5{
        font-size: 25px;
@@ -267,9 +267,12 @@
      }
      .study article{
        width: 300px;
-       height: 325px;
+       height: 305px;
        float: left;
        margin-right: 5px;
+     }
+     .study_content h1{
+       padding-bottom: 30px;
      }
      .study_at{
        display: flex;
@@ -278,7 +281,7 @@
      .studyat{
        width: 100%;
        height:350px;
-       padding: 20px 0px 0 20px ;
+       padding: 30px 0px 0 20px ;
        box-sizing: border-box;
      }
      .image1{
@@ -289,8 +292,8 @@
      .image1 div{
        height: 30px;
        width: 270px;
-       margin-top: 247px;
-       font-size: 30px;
+       margin-top: 260px;
+       font-size: 20px;
      }
      .image2{
        background-image: url(../images/study2.jpg);
@@ -300,8 +303,8 @@
      .image2 div{
        height: 30px;
        width: 270px;
-       margin-top: 247px;
-       font-size: 30px;
+       margin-top: 260px;
+       font-size: 20px;
      }
      .image3{
        background-image: url(../images/study3.jpg);
@@ -311,8 +314,8 @@
      .image3 div{
        height: 30px;
        width: 270px;
-       margin-top: 247px;
-       font-size: 30px;
+       margin-top: 260px;
+       font-size: 20px;
      }
      .image4{
        background-image: url(../images/study4.jpg);
@@ -322,8 +325,8 @@
      .image4 div{
        height: 30px;
        width: 270px;
-       margin-top: 247px;
-       font-size: 30px;
+       margin-top: 260px;
+       font-size: 20px;
      }
      .inner_text{
        padding: 0px 0 0px 30px;
@@ -332,7 +335,7 @@
 
      .main_footer{
        width: 100%;
-       height: 760px;
+       height: 950px;
        background-color: #002147;
        padding: 20px 0px 0px 0px;
      }
@@ -341,15 +344,20 @@
        padding-left: 50px;
        display: flex;
      }
+     .contact h1{
+       font-size: 20px;
+       font-weight: lighter;
+     }
      .icons ul li{
        display: inline;
      }
      .icons ul{
-         padding-left: 60px;
+         padding-left: 40px;
 
      }
      h2{
        color: white;
+       font-size: 18px;
      }
      .info{
        height: 550px;
@@ -362,15 +370,22 @@
        text-align: center;
      }
      .info article ul li {
-       margin-bottom: 10px;
+       margin-bottom: 01px;
        text-align: center;
+       padding-top: 20px;
+       font-size: 12px;
+       color: rgba(255,255,255,0.7);
+       list-style-type: none;
+     }
+     .info article ul li a{
+       color: rgba(255,255,255,0.7);
      }
      .copyright ul li{
        display:inline;
        margin-right: 10px;
      }
      .copyright{
-      margin-top: 140px;
+      margin-top: 320px;
       font-size: 12px;
       padding-left: 20px;
      }
@@ -393,7 +408,7 @@
     list-style: none;
   }
   body{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
     color: black;
     font-size:16px;
   }
@@ -544,6 +559,9 @@
       padding-top: 20px;
       width: 66%
     }
+    .news_main h1{
+      padding-bottom: 20px;
+    }
     .article{
       float: left;
       margin-right: 10px;
@@ -555,6 +573,7 @@
       width: 220px;
       display: flex;
       justify-content: center;
+      font-size: 13px;
       align-items: center;
     }
     .event{
@@ -571,25 +590,27 @@
       align-items: center;
       background: #002147;
       color: white;
-      margin-top: 5px;
+      margin-top: 20px;
     }
     .event p{
       background: #e0ded9;
       width: 275px;
       margin-top: 10px;
+      font-size: 13px;
     }
 
     /* DISCOVER */
     .discover{
-      height: 380px;
+      height: 370px;
       width: 100%;
       background-color: #e0ded9;
      }
      .discover article{
        width: 19%;
-       height: 300px;
+       height: 290px;
        float: left;
-       margin-right: 03px
+       margin-right: 03px;
+       padding-top: 20px;
      }
      .discover_quotes {
        background-color: #ffffff;
@@ -598,6 +619,7 @@
        display: flex;
        align-items: center;
        box-sizing: border-box;
+       font-size: 13px;
      }
      .disc{
        width: 100%;
@@ -617,8 +639,11 @@
        width: 100%;
        background-color: #f3f1ec;
      }
-     .study article{
-       margin-right: 5px;
+     .study_content h1{
+       padding-bottom: 20px;
+     }
+     .stdy article{
+       margin-right: 25px;
      }
      .study_content{
        padding: 20px 0px 0px 30px ;
@@ -632,7 +657,7 @@
        display: flex;
      }
      .studyat{
-       height:330px;
+       height:305px;
        width: 100%;
      }
      .image1{
@@ -686,7 +711,7 @@
 
      .main_footer{
        width: 100%;
-       height: 400px;
+       height: 450px;
        background-color: #002147;
        padding: 50px 0px 0px 0px;
      }
@@ -696,34 +721,47 @@
        color: white;
        padding-left: 50px;
      }
+     .contact h1{
+       font-weight: lighter;
+       font-size: 20px
+     }
      .icons{
-      padding-left: 30px;
+       padding-left:30px;
      }
      .icons ul li{
        display: inline;
      }
-     .icons ul{
-         display: inline;
-     }
      h2{
        color: white;
+       font-size: 16px;
+       font-weight: lighter;
      }
      .info{
-       height: 330px;
+       height: 360px;
        width: 100%;
 
      }
      .info article{
        float: left;
-       padding: 50px 0 0 30px;
+       margin-right: 100px;
+       padding: 50px 0 0 50px;
 
      }
      .info article ul li {
-       margin-bottom: 15px;
+       padding-top: 20px;
+       font-size: 12px;
+       color: rgba(255,255,255,0.7);
+     }
+     .info article ul li a{
+       color: rgba(255,255,255,0.7);
      }
      .copyright ul li{
        display: inline;
        padding-left: 30px
+     }
+     .copyright ul li a{
+       color: white;
+       font-size: 12px;
      }
 }
 
