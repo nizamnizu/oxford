@@ -53,6 +53,10 @@
   .mlogo{
     float: left;
     margin-left: 20px;
+    margin-top: 10px;
+  }
+  .mlogo img{
+    height: 50px;
   }
   .button_hamburger {
      width: 30px;
@@ -104,7 +108,8 @@
   .search{
     display: flex;
     direction: row;
-    padding-right: 75px
+    padding-right: 75px;
+    margin-top: 10px;
   }
   .search li:first-child button{
      float: left;
@@ -164,17 +169,17 @@
    .banner{
      padding: 290px 0 0 0;
      color: black;
-     font-size: 12px;
+     font-size: 10px;
      margin-left:20px;
    }
    .banner p{
-     font-size: 20px;
+     font-size: 14px;
    }
 
    /* NEWS */
 
    .news_events{
-     height: 1900px;
+     height: 1790px;
      width: 100%;
      background-color: #f3f1ec;
     }
@@ -188,11 +193,11 @@
       margin-left: 20px;
     }
     .img{
-      height: 400px;
+      height: 300px;
       width: 100%;
     }
     .article p{
-     font-size: 30px;
+     font-size: 22px;
      width: 100%;
      height: 100px;
      padding-left: 20px;
@@ -202,7 +207,9 @@
     .article p br{
       display: none;
     }
-
+    .event{
+      padding-top: 30px;
+    }
     span{
       height: 60px;
       width: 60px;
@@ -217,7 +224,7 @@
       margin-top: 20px;
     }
     .eve p{
-      font-size: 25px;
+      font-size: 22px;
       margin-left: 30px;
       background-color: #e0ded9;
       width: 100%;
@@ -225,13 +232,13 @@
 
     /* DISCOVER */
     .discover{
-      height: 1120px;
+      height: 1020px;
       width: 100%;
       background-color: #e0ded9;
      }
      .discover_quotes {
        background-color: #ffffff;
-       height: 176px;
+       height: 150px;
        width: 100%;
        display: flex;
        align-items: center;
@@ -242,10 +249,10 @@
        margin-top: 30px;
      }
      .discover article h5{
-       font-size: 25px;
+       font-size: 20px;
      }
      .discover article p{
-       font-size: 20px;
+       font-size: 12px;
      }
      .disc{
        width: 100%;
@@ -254,22 +261,24 @@
        box-sizing:border-box;
      }
      .discover_image{
-       width: 190px;
+       width: 150px;
+       height: 150px;
      }
 
      /* study of oxford */
 
 
      .study{
-       height: 680px;
+       height: 435px;
        width: 100%;
        background-color: #f3f1ec;
      }
      .study article{
-       width: 300px;
-       height: 305px;
+       width: 160px;
+       height: 160px;
        float: left;
        margin-right: 5px;
+       background-size: contain;
      }
      .study_content h1{
        padding-bottom: 30px;
@@ -291,9 +300,9 @@
      }
      .image1 div{
        height: 30px;
-       width: 270px;
-       margin-top: 260px;
-       font-size: 20px;
+       width: 160px;
+       margin-top: 137px;
+       font-size: 12px;
      }
      .image2{
        background-image: url(../images/study2.jpg);
@@ -302,9 +311,9 @@
      }
      .image2 div{
        height: 30px;
-       width: 270px;
-       margin-top: 260px;
-       font-size: 20px;
+       width:167px;
+       margin-top:137px;
+       font-size: 12px;
      }
      .image3{
        background-image: url(../images/study3.jpg);
@@ -313,23 +322,23 @@
      }
      .image3 div{
        height: 30px;
-       width: 270px;
-       margin-top: 260px;
-       font-size: 20px;
+       width: 160px;
+       margin-top: 137px;
+       font-size: 12px;
      }
      .image4{
        background-image: url(../images/study4.jpg);
        background-size: 300px;
        background-repeat: no-repeat;
      }
-     .image4 div{
+     .image4 div {
        height: 30px;
-       width: 270px;
-       margin-top: 260px;
-       font-size: 20px;
+       width: 160px;
+       margin-top: 137px;
+       font-size: 12px;
      }
      .inner_text{
-       padding: 0px 0 0px 30px;
+       /* padding: 0px 0 0px 30px; */
      }
      /* footer */
 
@@ -345,14 +354,15 @@
        display: flex;
      }
      .contact h1{
-       font-size: 20px;
+       font-size: 12px;
        font-weight: lighter;
+       margin-top: 10px;
      }
      .icons ul li{
        display: inline;
      }
      .icons ul{
-         padding-left: 40px;
+         padding-left: 12px;
 
      }
      h2{
@@ -364,7 +374,7 @@
        width: 100%;
      }
      .info article{
-       padding: 20px 0 0 20px;
+       padding: 20px 0 0 0px;
      }
      .info article h2{
        text-align: center;
@@ -386,7 +396,7 @@
      }
      .copyright{
       margin-top: 320px;
-      font-size: 12px;
+      font-size: 11px;
       padding-left: 20px;
      }
 }
