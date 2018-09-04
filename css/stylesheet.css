@@ -549,7 +549,7 @@
       width: 220px;
     }
     .news_main{
-      height:316px;
+      height:310px;
       padding-left: 50px;
       padding-top: 20px;
       width: 66%
@@ -560,7 +560,8 @@
     .article{
       float: left;
       margin-right: 10px;
-      width: 31.8%;
+      width: 215px;
+      height: 200px;
     }
     .article p {
       background: #e0ded9;
@@ -1004,14 +1005,14 @@
  }
  /* study of oxford */
  .study{
-   height: 400px;
+   height: 370px;
    width: 1344px;
    background-color: #f3f1ec;
    margin: auto;
  }
  .study article{
    width: 23.4%;
-   height: 300px;
+   height: 250px;
    float: left;
    margin-right: 5px;
  }
@@ -1032,7 +1033,7 @@
    height: 30px;
    width: 270px;
    background-color: rgba(225,225,225, 0.8);
-   margin-top: 260px;
+   margin-top: 210px;
  }
  .image2{
    background-image: url(../images/study2.jpg);
@@ -1042,7 +1043,7 @@
    height: 30px;
    width: 270px;
    background-color: rgba(225,225,225, 0.8);
-   margin-top: 260px;
+   margin-top: 210px;
  }
  .image3{
    background-image: url(../images/study3.jpg);
@@ -1052,7 +1053,7 @@
    height: 30px;
    width: 270px;
    background-color: rgba(225,225,225, 0.8);
-   margin-top: 260px;
+   margin-top: 210px;
  }
  .image4{
    background-image: url(../images/study4.jpg);
@@ -1062,7 +1063,7 @@
    height: 30px;
    width: 270px;
    background-color: rgba(225,225,225, 0.8);
-   margin-top: 260px;
+   margin-top: 210px;
  }
  .inner_text{
    padding: 10px 0 0px 30px;
