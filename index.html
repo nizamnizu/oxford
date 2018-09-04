@@ -5,7 +5,7 @@
       <title>oxford university</title>
       <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link rel="script" type="text/js" href="js/script.js">
+      <link  href="/js/script.js">
       <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
@@ -29,21 +29,15 @@
               <ul class="search">
                 <li> <input type="text" placeholder="Search.." name="search" class="input">
                 <button type="submit"><i class="fa fa-search"></i></button></li>
-                <li><a><button class="fas fa-bars button_hamburger " onclick="myFunction()" id="hamburger"></button></a>
-                  <nav class="dropdown-content" id="myDropdown">
-                    <ul>
-                      <li><a href="#">College.</a></li>
-                      <li><a href="#">Department.....</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="#">Visitory..</a></li>
-                      <li><a href="#">Oxford student</a></li>
-                    </ul>
-                    <ul>
-                      <li><a href="#">alumni...</a></li>
-                      <li><a href="#">staff &  studeni.</a></li>
-                    </ul>
-                  </nav>
+                <li class="dropdown"><a><button class="btn"><i class="fa fa-bars" onclick="myFunction()"></i></button></button></a>
+                  <div class="dropdown-content" id="myDropdown">
+                    <a href="#">College</a>
+                    <a href="#">Department</a>
+                    <a href="#">Visitory</a>
+                    <a href="#">Oxford student</a>
+                    <a href="#">alumni</a>
+                    <a href="#">staff & studeni</a>
+                  </div>
                   <li>
               </ul>
           </div>
