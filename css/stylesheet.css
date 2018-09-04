@@ -4,11 +4,6 @@
   padding: 0px;
 }
 
-@viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-}
-
 @media screen and (max-width:768px) {
 
   body{
@@ -41,8 +36,7 @@
     position: static;
     top: 0px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
   }
   .logo{
@@ -73,12 +67,10 @@
   .admissions{
     width: 600px;
     height: 30px;
-    flex-direction: row;
     display: none;
   }
   .about {
     display: flex;
-    direction: row;
     justify-content: space-around;
     align-items: center;
     display: none;
@@ -96,7 +88,7 @@
     width: 300px;
     background-color: #001833;
     display: flex;
-    direction: row;
+
     justify-content: space-around;
     align-items: center;
     display: none
@@ -107,7 +99,7 @@
   }
   .search{
     display: flex;
-    direction: row;
+
     padding-right: 75px;
     margin-top: 10px;
   }
@@ -123,7 +115,7 @@
    }
   .sec{
     display: flex;
-    direction: row;
+
     justify-content: space-around;
     align-items: center;
   }
@@ -131,7 +123,7 @@
     height: 5px;
     width: 500px;
     display:flex;
-    direction: row;
+
     margin-top: 85px;
     display: none;
   }
@@ -147,7 +139,7 @@
   }
   .dropdown-content ul{
     display: flex;
-    direction: row;
+
   }
   .dropdown-content ul li{
     border: 1px solid rgba(255, 225, 225, .2);
@@ -285,7 +277,6 @@
      }
      .study_at{
        display: flex;
-       display: row;
      }
      .studyat{
        width: 100%;
@@ -433,7 +424,6 @@
     position: static;
     top: 0px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
@@ -461,11 +451,10 @@
   .admissions{
     width: 600px;
     height: 30px;
-    flex-direction: row;
   }
   .about {
     display: flex;
-    direction: row;
+
     justify-content: space-around;
     align-items: center;
   }
@@ -480,7 +469,6 @@
     width: 300px;
     background-color: #001833;
     display: flex;
-    direction: row;
     justify-content: space-around;
     align-items: center;
     display: none
@@ -491,7 +479,7 @@
   }
   .search{
     display: flex;
-    direction: row;
+
   }
   .search li:first-child button{
      float: left;
@@ -505,7 +493,7 @@
  }
   .sec{
     display: flex;
-    direction: row;
+
     justify-content: space-around;
     align-items: center;
   }
@@ -513,7 +501,7 @@
     height: 5px;
     width: 500px;
     display:flex;
-    direction: row;
+
     margin-top: 85px;
     display: none;
   }
@@ -529,7 +517,7 @@
   }
   .dropdown-content ul{
     display: flex;
-    direction: row;
+
   }
   .dropdown-content ul li{
     border: 1px solid rgba(255, 225, 225, .2);
@@ -727,7 +715,6 @@
      }
      .contact{
        display: flex;
-       display: row;
        color: white;
        padding-left: 50px;
      }
@@ -808,7 +795,6 @@
    background-color: #002147;
    top: 0px;
    display: flex;
-   flex-direction: row;
    justify-content: space-between;
    align-items: center;
    margin: auto;
@@ -834,12 +820,11 @@
     display: none;
   }
  .admissions{
-   flex-direction: row;
    padding-left: 35px;
  }
  .about{
    display: flex;
-   direction: row;
+
    justify-content: space-around;
    align-items: center;
  }
@@ -859,7 +844,7 @@
    background-color: #001833;
    font-size: 14px;
    display: flex;
-   direction: row;
+
    justify-content: space-around;
    align-items: center;
    padding-left: 10px;
@@ -903,14 +888,14 @@
  }
  .sec{
    display: flex;
-   direction: row;
+
    align-items: center;
  }
  .staff{
    height: 5px;
    width: 540px;
    display:flex;
-   direction: row;
+
    margin-top: 20px;
    font-size: 12px;
  }
@@ -1026,12 +1011,7 @@
    padding: 20px 50px 0 50px  ;
    box-sizing: border-box;
  }
-
-
-
  /* study of oxford */
-
-
  .study{
    height: 400px;
    width: 1344px;
@@ -1109,7 +1089,6 @@
  }
  .contact{
    display: flex;
-   display: row;
    color: white;
    padding-left: 50px;
  }
