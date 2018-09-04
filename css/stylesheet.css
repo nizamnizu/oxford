@@ -36,7 +36,7 @@
     position: static;
     top: 0px;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
   }
   .logo{
@@ -88,7 +88,6 @@
     width: 300px;
     background-color: #001833;
     display: flex;
-
     justify-content: space-around;
     align-items: center;
     display: none
@@ -99,9 +98,7 @@
   }
   .search{
     display: flex;
-
-    padding-right: 75px;
-    margin-top: 10px;
+    padding-right: 20px;
   }
   .search li:first-child button{
      float: left;
@@ -835,16 +832,12 @@
   .about li a{
      color:white;
  }
- .about li a:hover{
-   background-color: #3277ae;
- }
  .colleges{
    height: 50px;
    width: 350px;
    background-color: #001833;
    font-size: 14px;
    display: flex;
-
    justify-content: space-around;
    align-items: center;
    padding-left: 10px;
@@ -888,14 +881,12 @@
  }
  .sec{
    display: flex;
-
    align-items: center;
  }
  .staff{
    height: 5px;
    width: 540px;
    display:flex;
-
    margin-top: 20px;
    font-size: 12px;
  }
