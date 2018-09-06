@@ -177,7 +177,7 @@
    /* NEWS */
 
     .news_events{
-     height: 1750px;
+     height: 1700px;
      width: 100%;
      background-color: #f3f1ec;
     }
@@ -221,7 +221,7 @@
       margin-top: 20px;
     }
     .eve p{
-      font-size: 20px;
+      font-size: 19px;
       padding: 10px;
       background-color: #e0ded9;
       width: 300px;
