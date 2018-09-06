@@ -238,11 +238,11 @@
     }
     .discover_quotes {
       background-color: #ffffff;
-      height: 135px;
+      height: 100px;
       width: 100%;
       display: flex;
       align-items: center;
-      padding-left: 50px;
+      padding-left: 25px;
      }
      .discover article{
        display: flex;
@@ -264,7 +264,7 @@
        font-size: 20px;
      }
      .discover_image{
-       width: 150px;
+       width: 130px;
        height: 100px;
      }
 
