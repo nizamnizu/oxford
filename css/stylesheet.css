@@ -52,7 +52,7 @@
   .mlogo img{
     height: 50px;
   }
-  .btn {
+  .dropbtn {
      width: 30px;
      height: 30px;
      float: right;
@@ -151,7 +151,7 @@
   }
   .dropdown-content a:hover {background-color: royalblue;}
 
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  .dropdown:hover .dropbtn {background-color:rgba(255, 225, 225, .2);}
 
   /* banner */
 
@@ -822,7 +822,7 @@
  .mlogo{
    display: none;
  }
- .btn {
+ .dropdown {
     margin: 15px 16px;
     width: 30px;
     height: 30px;
