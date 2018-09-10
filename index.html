@@ -6,8 +6,8 @@
       <link rel="shortcut icon" href="images/icon.ico">
       <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link  href="/js/script.js">
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link type="text/javascript" src="js/script.js">
     </head>
     <body>
       <header id="js-header">
@@ -30,7 +30,8 @@
               <ul class="search">
                 <li> <input type="text" placeholder="Search.." name="search" class="input">
                 <button type="submit"><i class="fa fa-search"></i></button></li>
-                <li class="dropdown" style="float:right;"><a><button class="btn"><i class="fa fa-bars" onclick="myFunction()"></i></button></button></a>
+                <div class="dropdown" style="float:right;">
+                  <button class="fa fa-bars btn"  onclick="myFunction()"></button>
                   <div class="dropdown-content" id="myDropdown">
                     <a href="#">College</a>
                     <a href="#">Department</a>
@@ -39,7 +40,7 @@
                     <a href="#">alumni</a>
                     <a href="#">staff & student</a>
                   </div>
-                  <li>
+                </div>
               </ul>
           </div>
           <div class="">

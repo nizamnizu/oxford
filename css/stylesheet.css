@@ -137,6 +137,8 @@
     height: 50px;
     position: absolute;
     display: none;
+    overflow: auto;
+    z-index: 1;
   }
   .dropdown-content a {
     color: white;
@@ -148,11 +150,6 @@
     background-color: #001833;
   }
   .dropdown-content a:hover {background-color: royalblue;}
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-    right: 0;
-  }
 
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
@@ -799,7 +796,7 @@
  ul{
    list-style: none;
  }
- body{
+ body {
    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
    color: black;
    font-size:16px;
