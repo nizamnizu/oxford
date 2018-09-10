@@ -110,6 +110,7 @@
      color: white;
      font-size: 17px;
      cursor: pointer;
+     display: none;
    }
   .sec{
     display: flex;
@@ -499,7 +500,8 @@
      color: white;
      font-size: 17px;
      cursor: pointer;
- }
+     display: none;
+  }
   .sec{
     display: flex;
     justify-content: space-around;
@@ -952,6 +954,9 @@
    padding-left: 50px;
    padding-top: 20px;
  }
+ .news_main h1{
+   font-size: 25px;
+ }
  .article {
    float: left;
    margin-right: 10px;
@@ -971,6 +976,9 @@
    height:320px;
    float: right;
    padding-top: 20px;
+ }
+ .events{
+   font-size: 25px;
  }
  span{
    height: 60px;
