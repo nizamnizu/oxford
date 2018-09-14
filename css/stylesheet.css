@@ -1,5 +1,5 @@
 /*defacult css*/
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
@@ -7,10 +7,11 @@
 @media screen and (max-width:768px) {
 
   body{
+  body  {
     height: 100%;
     width: 100%;
   }
-  .cf{
+  .cf {
     content: " ";
     display: table;
     clear: both;
@@ -18,10 +19,10 @@
   a,img {
     text-decoration: none;
   }
-  ul{
+  ul  {
     list-style: none;
   }
-  body{
+  body  {
     font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
     color: black;
     font-size:16px;
@@ -29,7 +30,7 @@
 
   /* header */
 
-  header{
+  header  {
     width: 100%;
     height: 150px;
     background-color: #002147;
@@ -39,17 +40,17 @@
     justify-content: space-between;
     align-items: center;
   }
-  .logo{
+  .logo {
     float: left;
     margin-left: 50px;
     display: none;
   }
-  .mlogo{
+  .mlogo  {
     float: left;
     margin-left: 20px;
     margin-top: 10px;
   }
-  .mlogo img{
+  .mlogo img  {
     height: 50px;
   }
   .dropbtn {
@@ -62,10 +63,10 @@
      cursor: pointer;
      border: none;
   }
-  .input{
+  .input  {
    display: none;
   }
-  .admissions{
+  .admissions {
     width: 600px;
     height: 30px;
     display: none;
@@ -76,7 +77,7 @@
     align-items: center;
     display: none;
   }
-  .about li{
+  .about li {
     margin-right: 40px;
     display: none;
     font-weight: bold;
@@ -84,7 +85,7 @@
   a {
       color:white;
   }
-  .colleges{
+  .colleges {
     height: 30px;
     width: 300px;
     background-color: #001833;
@@ -93,15 +94,15 @@
     align-items: center;
     display: none
   }
-  .button{
+  .button {
     background-color:  #002147;
     margin: 20px ;
   }
-  .search{
+  .search {
     display: flex;
     padding-right: 20px;
   }
-  .search li:first-child button{
+  .search li:first-child button {
      float: left;
      width: 30px;
      height:30px;
@@ -112,27 +113,26 @@
      cursor: pointer;
      display: none;
    }
-  .sec{
+  .sec  {
     display: flex;
-
     justify-content: space-around;
     align-items: center;
   }
-  .staff{
+  .staff  {
     height: 5px;
     width: 500px;
     display:flex;
     margin-top: 85px;
     display: none;
   }
-  .staff li{
+  .staff li {
     margin-right: 29px;
   }
   .dropdown {
     position: relative;
     display: inline-block;
   }
-  .dropdown-content{
+  .dropdown-content {
     width: 150px;
     height: 50px;
     position: absolute;
@@ -155,45 +155,45 @@
 
   /* banner */
 
-  .inner_main{
+  .inner_main {
     height: 400px;
     width: 100%;
     background-image: url(../images/banner.png);
     background-size: 767px;
     background-repeat: no-repeat;
    }
-   .banner{
+   .banner  {
      padding: 290px 0 0 0;
      color: black;
      font-size: 10px;
      margin-left:20px;
    }
-   .banner p{
+   .banner p  {
      font-size: 14px;
    }
 
    /* NEWS */
 
-    .news_events{
+    .news_events  {
      height: 1700px;
      width: 100%;
      background-color: #f3f1ec;
     }
-    .news_main h1{
+    .news_main h1 {
       padding: 30px 0 30px 30px;
       font-size: 20px;
     }
-    .news_main article{
+    .news_main article  {
       padding-top: 30px;
     }
-    .event{
+    .event  {
       margin-left: 20px;
     }
-    .img{
+    .img  {
       height: 300px;
       width: 100%;
     }
-    .article p{
+    .article p  {
      font-size: 20px;
      width: 100%;
      height: 100px;
@@ -201,13 +201,13 @@
      padding-top: 10px;
      box-sizing: border-box;
     }
-    .article p br{
+    .article p br {
       display: none;
     }
-    .events{
+    .events {
       font-size: 20px;
     }
-    span{
+    span  {
       height: 60px;
       width: 60px;
       display: flex;
@@ -221,7 +221,7 @@
       display: flex;
       margin-top: 20px;
     }
-    .eve p{
+    .eve p  {
       font-size: 19px;
       padding: 10px;
       background-color: #e0ded9;
@@ -229,7 +229,7 @@
     }
 
     /* DISCOVER */
-    .discover{
+    .discover {
       height: 750px;
       width: 100%;
       background-color: #e0ded9;
@@ -243,26 +243,26 @@
       padding-left: 25px;
       padding-right: 20px;
      }
-     .discover article{
+     .discover article  {
        display: flex;
        margin-top: 30px;
      }
-     .discover article h5{
+     .discover article h5 {
        font-size: 20px;
      }
-     .discover article p{
+     .discover article p  {
        font-size: 12px;
      }
-     .disc{
+     .disc  {
        width: 100%;
        height:400px;
        padding:30px 0 0 30px;
        box-sizing:border-box;
      }
-     .disc h1{
+     .disc h1 {
        font-size: 20px;
      }
-     .discover_image{
+     .discover_image  {
        width: 110px;
        height: 100px;
      }
@@ -270,65 +270,65 @@
      /* study of oxford */
 
 
-     .study{
+     .study {
        height: 435px;
        width: 100%;
        background-color: #f3f1ec;
      }
-     .study article{
+     .study article {
        width: 160px;
        height: 160px;
        float: left;
        margin-right: 5px;
        background-size: contain;
      }
-     .study_content h1{
+     .study_content h1  {
        padding-bottom: 20px;
        font-size: 20px;
      }
-     .study_at{
+     .study_at  {
        display: flex;
      }
-     .studyat{
+     .studyat {
        width: 100%;
        height:360px;
        padding: 30px 0px 0 20px ;
        box-sizing: border-box;
      }
-     .image1{
+     .image1  {
        background-image: url(../images/study1.jpg);
        background-size: 300px;
        background-repeat: no-repeat;
      }
-     .image1 div{
+     .image1 div  {
        height: 30px;
        width: 160px;
        margin-top: 137px;
        font-size: 12px;
      }
-     .image2{
+     .image2  {
        background-image: url(../images/study2.jpg);
        background-size: 300px;
        background-repeat: no-repeat;
      }
-     .image2 div{
+     .image2 div  {
        height: 30px;
        width:167px;
        margin-top:137px;
        font-size: 12px;
      }
-     .image3{
+     .image3  {
        background-image: url(../images/study3.jpg);
        background-size: 300px;
        background-repeat: no-repeat;
      }
-     .image3 div{
+     .image3 div  {
        height: 30px;
        width: 160px;
        margin-top: 137px;
        font-size: 12px;
      }
-     .image4{
+     .image4  {
        background-image: url(../images/study4.jpg);
        background-size: 300px;
        background-repeat: no-repeat;
@@ -341,41 +341,41 @@
      }
      /* footer */
 
-     .main_footer{
+     .main_footer {
        width: 100%;
        height: 950px;
        background-color: #002147;
        padding: 20px 0px 0px 0px;
      }
-     .contact{
+     .contact {
        color: white;
        padding-left: 50px;
        display: flex;
      }
-     .contact h1{
+     .contact h1  {
        font-size: 12px;
        font-weight: lighter;
        margin-top: 10px;
      }
-     .icons ul li{
+     .icons ul li {
        display: inline;
      }
-     .icons ul{
+     .icons ul  {
          padding-left: 12px;
 
      }
-     h2{
+     h2 {
        color: white;
        font-size: 20px;
      }
-     .info{
+     .info  {
        height: 550px;
        width: 100%;
      }
-     .info article{
+     .info article  {
        padding: 20px 0 0 0px;
      }
-     .info article h2{
+     .info article h2 {
        text-align: center;
      }
      .info article ul li {
@@ -386,14 +386,14 @@
        color: rgba(255,255,255,0.7);
        list-style-type: none;
      }
-     .info article ul li a{
+     .info article ul li a  {
        color: rgba(255,255,255,0.7);
      }
-     .copyright ul li{
+     .copyright ul li {
        display:inline;
        margin-right: 10px;
      }
-     .copyright{
+     .copyright {
       margin-top: 320px;
       font-size: 11px;
       padding-left: 20px;
@@ -401,11 +401,11 @@
 }
 
 @media screen and (min-width:769px) and (max-width:1199px) {
-  body{
+  body  {
     height: 100%;
     width: 100%;
   }
-  .cf{
+  .cf {
     content: ".";
     display: table;
     clear: both;
@@ -413,10 +413,10 @@
   a,img {
     text-decoration: none;
   }
-  ul{
+  ul  {
     list-style: none;
   }
-  body{
+  body  {
     font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
     color: black;
     font-size:16px;
@@ -425,7 +425,7 @@
 
   /* header */
 
-  header{
+  header  {
     width: 100%;
     height: 150px;
     background-color: #002147;
@@ -435,11 +435,11 @@
     justify-content: space-between;
     align-items: center;
   }
-  .logo{
+  .logo {
     float: left;
     margin-left: 50px;
   }
-  .mlogo{
+  .mlogo  {
     display: none;
   }
   .btn {
@@ -452,10 +452,10 @@
      cursor: pointer;
      border: none;
   }
-  .input{
+  .input  {
    display: none;
   }
-  .admissions{
+  .admissions {
     width: 600px;
     height: 30px;
   }
@@ -464,13 +464,13 @@
     justify-content: space-around;
     align-items: center;
   }
-  .about li{
+  .about li {
     margin-right: 40px;
   }
   a {
       color:white;
   }
-  .colleges{
+  .colleges {
     height: 30px;
     width: 300px;
     background-color: #001833;
@@ -479,16 +479,16 @@
     align-items: center;
     display: none
   }
-  .button{
+  .button {
     background-color:  #002147;
     margin: 20px ;
   }
-  .search{
+  .search {
     display: flex;
     padding-right: 05px;
     box-sizing: border-box;
   }
-  .search li:first-child button{
+  .search li:first-child button {
      float: left;
      width: 30px;
      height:30px;
@@ -499,26 +499,26 @@
      cursor: pointer;
      display: none;
   }
-  .sec{
+  .sec  {
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-  .staff{
+  .staff  {
     height: 5px;
     width: 500px;
     display:flex;
     margin-top: 85px;
     display: none;
   }
-  .staff li{
+  .staff li {
     margin-right: 29px
   }
   .dropdown {
     position: relative;
     display: inline-block;
   }
-  .dropdown-content{
+  .dropdown-content {
     width: 150px;
     height: 50px;
     position: absolute;
@@ -543,12 +543,12 @@
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
   /* banner */
 
-  .inner_main{
+  .inner_main {
     height: 500px;
     width: 100%;
     background-image: url(../images/banner.png);
    }
-   .banner{
+   .banner  {
      padding: 350px 0 0 30px;
      color: white;
      font-size: 12px
@@ -556,25 +556,25 @@
 
    /* NEWS */
 
-   .news_events{
+   .news_events {
      height: 380px;
      width: 100%;
      background-color: #f3f1ec;
      display:flex;
     }
-    .img{
+    .img  {
       width: 220px;
     }
-    .news_main{
+    .news_main  {
       height:310px;
       padding-left: 50px;
       padding-top: 20px;
       width: 66%
     }
-    .news_main h1{
+    .news_main h1 {
       padding-bottom: 20px;
     }
-    .article{
+    .article  {
       float: left;
       margin-right: 10px;
       width: 215px;
@@ -589,13 +589,13 @@
       font-size: 13px;
       align-items: center;
     }
-    .event{
+    .event  {
       width: 25%;
       height:250px;
       float: right;
       padding-top: 20px;
     }
-    span{
+    span  {
       height: 60px;
       width: 60px;
       display: flex;
@@ -605,7 +605,7 @@
       color: white;
       margin-top: 20px;
     }
-    .event p{
+    .event p  {
       background: #e0ded9;
       width: 275px;
       margin-top: 10px;
@@ -613,12 +613,12 @@
     }
 
     /* DISCOVER */
-    .discover{
+    .discover {
       height: 370px;
       width: 100%;
       background-color: #e0ded9;
      }
-     .discover article{
+     .discover article  {
        width: 19%;
        height: 290px;
        float: left;
@@ -634,126 +634,126 @@
        box-sizing: border-box;
        font-size: 13px;
      }
-     .disc{
+     .disc  {
        width: 100%;
        height:303px;
        padding:20px 0 0 30px;
        box-sizing: border-box;
      }
-     .discover_image{
+     .discover_image  {
        width: 190px;
      }
 
      /* study of oxford */
 
 
-     .study{
+     .study {
        height: 30px;
        width: 100%;
        background-color: #f3f1ec;
      }
-     .study_content h1{
+     .study_content h1  {
        padding-bottom: 20px;
      }
-     .stdy article{
+     .stdy article  {
        margin-right: 25px;
      }
-     .study_content{
+     .study_content {
        padding: 20px 0px 0px 30px ;
      }
-     .stdy{
+     .stdy  {
        display: flex;
        height: 200px;
        width: 480px
      }
-     .study_at{
+     .study_at  {
        display: flex;
      }
-     .studyat{
+     .studyat {
        height:305px;
        width: 100%;
      }
-     .image1{
+     .image1  {
        background-image: url(../images/study1.jpg);
        background-size: cover;
        width: 255px;
      }
-     .image1 div{
+     .image1 div  {
        height: 30px;
        width: 205px;
        background-color: rgba(255,225,225, 0.8);
        margin-top: 161px;
      }
-     .image2{
+     .image2  {
        background-image: url(../images/study2.jpg);
        background-size: cover;
         width: 255px;
      }
-     .image2 div{
+     .image2 div  {
        height: 30px;
        width: 205px;
        background-color: rgba(255,225,225, 0.8);
        margin-top: 161px;
      }
-     .image3{
+     .image3  {
        background-image: url(../images/study3.jpg);
        background-size: cover;
         width: 255px;
      }
-     .image3 div{
+     .image3 div  {
        height: 30px;
        width: 205px;
        background-color: rgba(255,225,225, 0.8);
        margin-top: 161px;
      }
-     .image4{
+     .image4  {
        background-image: url(../images/study4.jpg);
        background-size: cover;
         width: 255px;
      }
-     .image4 div{
+     .image4 div  {
        height: 30px;
        width: 205px;
        background-color: rgba(255,225,225, 0.8);
        margin-top: 161px;
      }
-     .inner_text{
+     .inner_text  {
        padding: 10px 0 0px 10px;
      }
      /* footer */
 
-     .main_footer{
+     .main_footer {
        width: 100%;
        height: 450px;
        background-color: #002147;
        padding: 50px 0px 0px 0px;
      }
-     .contact{
+     .contact {
        display: flex;
        color: white;
        padding-left: 50px;
      }
-     .contact h1{
+     .contact h1  {
        font-weight: lighter;
        font-size: 20px
      }
-     .icons{
+     .icons {
        padding-left:30px;
      }
-     .icons ul li{
+     .icons ul li {
        display: inline;
      }
-     h2{
+     h2 {
        color: white;
        font-size: 16px;
        font-weight: lighter;
      }
-     .info{
+     .info  {
        height: 360px;
        width: 100%;
 
      }
-     .info article{
+     .info article  {
        float: left;
        margin-right: 100px;
        padding: 50px 0 0 50px;
@@ -764,14 +764,14 @@
        font-size: 12px;
        color: rgba(255,255,255,0.7);
      }
-     .info article ul li a{
+     .info article ul li a  {
        color: rgba(255,255,255,0.7);
      }
-     .copyright ul li{
+     .copyright ul li {
        display: inline;
        padding-left: 30px
      }
-     .copyright ul li a{
+     .copyright ul li a {
        color: white;
        font-size: 12px;
      }
@@ -779,12 +779,12 @@
 
 @media screen and (min-width:1200px) {
 
- body{
+ body {
    height: 100%;
    width: 1344px;
    margin: auto;
  }
- .cf{
+ .cf  {
    content: ".";
    display: table;
    clear: both;
@@ -793,7 +793,7 @@
    text-decoration: none;
  }
 
- ul{
+ ul {
    list-style: none;
  }
  body {
@@ -804,7 +804,7 @@
 
  /* header */
 
-  header{
+  header  {
    width: 1344px;
    height: 150px;
    background-color: #002147;
@@ -814,12 +814,12 @@
    align-items: center;
    margin: auto;
  }
- .logo{
+ .logo  {
    float: left;
    margin-left: 50px;
    padding-top: 10px;
  }
- .mlogo{
+ .mlogo {
    display: none;
  }
  .dropdown {
@@ -834,23 +834,22 @@
     transition: height 0.3s linear 0s;
     display: none;
   }
- .admissions{
+ .admissions  {
    padding-left: 35px;
  }
- .about{
+ .about {
    display: flex;
-
    justify-content: space-around;
    align-items: center;
  }
- .about li{
+ .about li  {
    margin-right: 40px;
    font-size: 21px;
  }
-  .about li a{
+  .about li a {
      color:white;
  }
- .colleges{
+ .colleges  {
    height: 50px;
    width: 350px;
    background-color: #001833;
@@ -861,11 +860,11 @@
    padding-left: 10px;
    color: rgba(255,255,255,0.1);
  }
- .colleges li a{
+ .colleges li a {
    padding-right: 20px;
    color: rgba(255,255,255,0.7);
  }
- .button{
+ .button  {
    background-color:  #002147;
   }
   .input {
@@ -881,7 +880,7 @@
     color: white;
     padding: 5px;
   }
-  .search li button{
+  .search li button {
      float: left;
      width: 50px;
      height:50px;
@@ -897,31 +896,31 @@
      clear: both;
      display: table;
  }
- .sec{
+ .sec {
    display: flex;
    align-items: center;
  }
- .staff{
+ .staff {
    height: 5px;
    width: 540px;
    display:flex;
    margin-top: 20px;
    font-size: 12px;
  }
- .staff li{
+ .staff li  {
    padding-left: 15px;
    margin-left: 30px;
  }
- .staff li a{
+ .staff li a  {
    color: rgba(255,255,255,0.7);
  }
- .dropdown-content{
+ .dropdown-content  {
    display: none;
  }
 
  /* banner */
 
- .inner_main{
+ .inner_main  {
    height: 500px;
    width: 1344px;
    margin: auto;
@@ -929,7 +928,7 @@
    background-repeat:no-repeat;
    background-size: cover;
   }
-  .banner{
+  .banner {
    padding: 350px 0 0 50px;
    color: white;
    font-size: 12px
@@ -937,21 +936,21 @@
 
  /* NEWS */
 
- .news_events{
+ .news_events {
        height: 440px;
        width: 1344px;
        margin: auto;
        background-color: #f3f1ec;
        display: flex;
  }
- .news_main{
+ .news_main {
    width: 72%;
    height: 320px;
    float: left;
    padding-left: 50px;
    padding-top: 20px;
  }
- .news_main h1{
+ .news_main h1  {
    font-size: 25px;
  }
  .article {
@@ -968,16 +967,16 @@
    justify-content: center;
    align-items: center;
  }
- .event{
+ .event {
    width: 25%;
    height:320px;
    float: right;
    padding-top: 20px;
  }
- .events{
+ .events  {
    font-size: 25px;
  }
- span{
+ span {
    height: 60px;
    width: 60px;
    display: flex;
@@ -988,7 +987,7 @@
    margin-top: 20px;
 
  }
- .event p{
+ .event p {
    background: #e0ded9;
    width: 275px;
    padding-top: 5px;
@@ -998,14 +997,14 @@
 
  /* DISCOVER */
 
- .discover{
+ .discover  {
    height: 360px;
    width: 1344px;
    background-color: #e0ded9;
    margin: auto;
  }
 
- .discover article{
+ .discover article  {
    width: 18.5%;
    height: 250px;
    float: left;
@@ -1020,20 +1019,20 @@
    justify-content: center;
    align-items: center;
  }
- .disc{
+ .disc  {
    width: 100%;
    height:400px;
-   padding: 20px 50px 0 50px  ;
+   padding: 20px 50px 0 50px;
    box-sizing: border-box;
  }
  /* study of oxford */
- .study{
+ .study {
    height: 370px;
    width: 1344px;
    background-color: #f3f1ec;
    margin: auto;
  }
- .study article{
+ .study article {
    width: 23.4%;
    height: 250px;
    float: left;
@@ -1042,92 +1041,92 @@
  .study_at {
    padding-top: 20px
  }
- .studyat{
+ .studyat {
    height:330px;
    width: 100%;
    padding: 20px 0px 0 50px ;
    box-sizing: border-box;
  }
- .image1{
+ .image1  {
    background-image: url(../images/study1.jpg);
    background-size: cover;
  }
- .image1 div{
+ .image1 div  {
    height: 30px;
    width: 270px;
    background-color: rgba(225,225,225, 0.8);
    margin-top: 210px;
  }
- .image2{
+ .image2  {
    background-image: url(../images/study2.jpg);
    background-size: cover;
  }
- .image2 div{
+ .image2 div  {
    height: 30px;
    width: 270px;
    background-color: rgba(225,225,225, 0.8);
    margin-top: 210px;
  }
- .image3{
+ .image3  {
    background-image: url(../images/study3.jpg);
    background-size: cover;
  }
- .image3 div{
+ .image3 div  {
    height: 30px;
    width: 270px;
    background-color: rgba(225,225,225, 0.8);
    margin-top: 210px;
  }
- .image4{
+ .image4  {
    background-image: url(../images/study4.jpg);
    background-size: cover;
  }
- .image4 div{
+ .image4 div  {
    height: 30px;
    width: 270px;
    background-color: rgba(225,225,225, 0.8);
    margin-top: 210px;
  }
- .inner_text{
+ .inner_text  {
    padding: 10px 0 0px 30px;
  }
 
 
  /* footer */
 
- .main_footer{
+ .main_footer {
    width: 1344px;
    height: 500px;
    background-color: #002147;
    padding: 50px 0px 0px 0px;
    margin: auto;
  }
- .contact{
+ .contact {
    display: flex;
    color: white;
    padding-left: 50px;
  }
- .contact h1{
+ .contact h1  {
    font-weight: lighter;
    font-size: 20px
  }
- .icons{
+ .icons {
    padding-left:30px;
  }
- .icons ul li{
+ .icons ul li {
    display: inline;
  }
- h2{
+ h2 {
    color: white;
    font-size: 16px;
    font-weight: lighter;
  }
- .info{
+ .info  {
    height: 400px;
    width: 100%;
 
  }
- .info article{
+ .info article  {
    float: left;
    margin-right: 100px;
    padding: 50px 0 0 50px;
@@ -1138,14 +1137,14 @@
    font-size: 12px;
    color: rgba(255,255,255,0.7);
  }
- .info article ul li a{
+ .info article ul li a  {
    color: rgba(255,255,255,0.7);
  }
- .copyright ul li{
+ .copyright ul li {
    display: inline;
    padding-left: 30px
  }
- .copyright ul li a{
+ .copyright ul li a {
    color: white;
    font-size: 12px;
  }
