@@ -542,7 +542,7 @@
   .dropdown .dropbtn:focus + .dropdown-content , .dropdown .dropbtn .dropdown-content a:hover {
     display: block;
   }
-  .dropdown-content li:hover {background-color: royalblue;}
+  .dropdown-content li:hover {background-color: red;}
 
   .dropdown:hover .dropbtn {background-color:rgba(255, 225, 225, .2);}
 
