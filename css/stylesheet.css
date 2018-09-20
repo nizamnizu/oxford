@@ -159,14 +159,14 @@
   /* banner */
 
   .inner_main {
-    height: 400px;
+    height: 300px;
     width: 100%;
     background-image: url(../images/banner.png);
-    background-size: 767px;
+    background-size: 100%;
     background-repeat: no-repeat;
    }
    .banner  {
-     padding: 290px 0 0 0;
+     padding: 160px 0 0 0;
      color: black;
      font-size: 10px;
      margin-left:20px;
@@ -197,7 +197,7 @@
       width: 100%;
     }
     .article p  {
-     font-size: 20px;
+     font-size: 18px;
      width: 100%;
      height: 100px;
      padding-left: 20px;
@@ -225,7 +225,7 @@
       margin-top: 20px;
     }
     .eve p  {
-      font-size: 19px;
+      font-size: 18px;
       padding: 10px;
       background-color: #e0ded9;
       width: 300px;
@@ -401,6 +401,12 @@
       font-size: 11px;
       padding-left: 20px;
      }
+     .info article ul li a:hover{
+       opacity: .5;
+     }
+    .copyright ul li a:hover{
+       opacity: .8;
+     }
 }
 
 @media screen and (min-width:769px) and (max-width:1199px) {
@@ -542,7 +548,7 @@
   .dropdown .dropbtn:focus + .dropdown-content , .dropdown .dropbtn .dropdown-content a:hover {
     display: block;
   }
-  .dropdown-content li:hover {background-color: red;}
+  .dropdown-content li:hover {background-color: royalblue;}
 
   .dropdown:hover .dropbtn {background-color:rgba(255, 225, 225, .2);}
 
@@ -780,6 +786,12 @@
        color: white;
        font-size: 12px;
      }
+     .info article ul li a:hover{
+       opacity: .5;
+     }
+    .copyright ul li a:hover{
+       opacity: .8;
+     }
 }
 
 @media screen and (min-width:1200px) {
@@ -849,10 +861,13 @@
  }
  .about li  {
    margin-right: 40px;
-   font-size: 21px;
+   font-size: 20px;
  }
   .about li a {
      color:white;
+ }
+ .about li a:hover{
+   opacity: .8;
  }
  .colleges  {
    height: 50px;
@@ -869,6 +884,9 @@
    padding-right: 20px;
    color: rgba(255,255,255,0.7);
  }
+ .colleges li a:hover{
+   opacity: .8;
+ }
  .button  {
    background-color:  #002147;
   }
@@ -884,6 +902,7 @@
   ::placeholder {
     color: white;
     padding: 5px;
+    padding-left: 18px;
   }
   .search li button {
      float: left;
@@ -913,11 +932,14 @@
    font-size: 12px;
  }
  .staff li  {
-   padding-left: 15px;
+   padding-left: 18px;
    margin-left: 30px;
  }
  .staff li a  {
    color: rgba(255,255,255,0.7);
+ }
+ .staff li a:hover{
+   opacity: .5;
  }
  .dropdown-content  {
    display: none;
@@ -927,7 +949,7 @@
 
  .inner_main  {
    height: 500px;
-   width: 1344px;
+   width: 100%;
    margin: auto;
    background-image: url(../images/banner.png);
    background-repeat:no-repeat;
@@ -1023,6 +1045,9 @@
    display: flex;
    justify-content: center;
    align-items: center;
+ }
+ .disc article img{
+   width: 239px;
  }
  .disc  {
    width: 100%;
@@ -1145,6 +1170,9 @@
  .info article ul li a  {
    color: rgba(255,255,255,0.7);
  }
+ .info article ul li a:hover{
+   opacity: .5;
+ }
  .copyright ul li {
    display: inline;
    padding-left: 30px
@@ -1152,5 +1180,8 @@
  .copyright ul li a {
    color: white;
    font-size: 12px;
+ }
+ .copyright ul li a:hover{
+   opacity: .8;
  }
 }
