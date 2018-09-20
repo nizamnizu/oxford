@@ -6,6 +6,7 @@
   <link rel="shortcut icon" href="images/icon.ico">
   <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link type="text/javascript" src="js/script.js">
 </head>
@@ -31,7 +32,7 @@
           <li> <input type="text" placeholder="Search.." name="search" class="input">
             <button type="submit" ><i class="fa fa-search"></i></button></li>
             <div class="dropdown">
-              <button class="fa fa-bars dropbtn toggle" ></button>
+              <button onclick="$('.dropdown-content').toggle();" class="fa fa-bars dropbtn "></button>
               <div class="dropdown-content target" id="myDropdown">
                 <li><a href="#College">College</a></li>
                 <li><a href="#Department">Department</a></li>
